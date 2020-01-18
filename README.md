@@ -1,3 +1,11 @@
+## To run simple mover
+```shell
+$ catkin_make
+$ source devel/setup.bash
+$ roslaunch simple_arm robot_spawn.launch
+$ rosrun simple_arm simple_mover
+```
+
 ```shell
 $ catkin_make
 $ sudo apt-get install ros-kinetic-controller-manager
