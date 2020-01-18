@@ -3,6 +3,6 @@ prefix=/home/student/ROS_practice/devel
 Name: simple_arm
 Description: Description of simple_arm
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/student/ROS_practice/devel/include
 Libs: -L/home/student/ROS_practice/devel/lib 
 Requires: 
